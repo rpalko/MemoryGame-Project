@@ -37,6 +37,11 @@ h1 {
  * Styles for the deck of cards
  */
 
+.noClick {
+  pointer-events: none;
+}
+
+
 .deck {
     width: 660px;
     min-height: 680px;
@@ -87,8 +92,18 @@ h1 {
 
 .score-panel {
     text-align: left;
-    width: 345px;
+    width: 525px;
     margin-bottom: 10px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.score-panel .start-button {
+  background-color: #02ccba;
+  width: 75px;
+  height: 50px;
+
 }
 
 .score-panel .stars {
@@ -108,10 +123,57 @@ h1 {
 }
 
 .score-panel .clock {
-    margin-left: 4em;
+
+
 }
 
 .score-panel .restart {
     float: right;
     cursor: pointer;
+}
+
+.hide-star {
+    visibility: hidden;
+}
+
+.modal-background {
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+}
+
+.modal-content {
+  background-color: lightblue;
+  width: 60%
+  margin: auto;
+  padding: 60px;
+}
+
+.modal-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3em;
+}
+
+.reset-button {
+  background-color: white;
+  width: 60px;
+  height: 30px;
 }

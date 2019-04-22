@@ -1,20 +1,18 @@
-# Memory Game Project
 
-## Table of Contents
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+Memory Game!
 
-## Instructions
+This is a quick, easy, and fun game that has the user searching through the flipped over cards for their matches.
+The user starts the game by clicking on the start button in the top left-hand corner.
+Once the user finds all matches a window will pop up with all of the game statistics, and the user will be given the option to reset the game and try again!
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
 
-To get started, open `js/app.js` and start building out the app's functionality
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
 
-## Contributing
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
 
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+Installation:
+
+Clone the GitHub repository:
+
+$ git clone https://github.com/rpalko/MemoryGame-Project.git
